@@ -90,7 +90,7 @@
     line-height: 40px;
     display: inline-block;
     list-style: none;
-    font-size: 14px;
+    font-size: $--font-size-base;
     font-weight: 500;
     color: $--color-text-primary;
     position: relative;
@@ -166,6 +166,7 @@
       transform-origin: 100% 50%;
     }
     > .el-tabs__header .el-tabs__item {
+      font-size: $--font-size-base;
       border-bottom: 1px solid transparent;
       border-left: 1px solid $--border-color-light;
       transition: color .3s cubic-bezier(.645,.045,.355,1), padding .3s cubic-bezier(.645,.045,.355,1);
